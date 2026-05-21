@@ -1,0 +1,41 @@
+{
+    "portraits/senior-session": {
+      "title": "Senior Portrait Session",
+      "description": "A warm outdoor senior portrait with soft natural light.",
+      "location": "Austin, Texas",
+      "year": "2026",
+      "featured": true,
+      "peoplePhoto": true,
+      "alt": "Senior portrait in warm outdoor light",
+      "source": {
+        "label": "Original photo by Your Name",
+        "url": "#",
+        "note": "Captured during a scheduled portrait session."
+      },
+      "permission": {
+        "status": "Release on file",
+        "publicNote": "Subject approved portfolio and social use.",
+        "proofLabel": "View signed release",
+        "proofUrl": "/proofs/senior-session-release.pdf"
+      }
+    },
+    "nature/sunset": {
+      "title": "Golden Sunset",
+      "description": "A landscape photo captured during golden hour.",
+      "location": "Hill Country",
+      "year": "2026",
+      "featured": true,
+      "peoplePhoto": false,
+      "source": {
+        "label": "Original landscape photo",
+        "url": "#",
+        "note": "Captured by the photographer."
+      },
+      "permission": {
+        "status": "Not needed",
+        "publicNote": "No personal release needed for this image.",
+        "proofLabel": "Usage note",
+        "proofUrl": "#"
+      }
+    }
+  }
