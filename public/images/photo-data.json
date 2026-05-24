@@ -1,41 +1,322 @@
 {
-    "portraits/senior-session": {
-      "title": "Senior Portrait Session",
-      "description": "A warm outdoor senior portrait with soft natural light.",
-      "location": "Austin, Texas",
-      "year": "2026",
-      "featured": true,
-      "peoplePhoto": true,
-      "alt": "Senior portrait in warm outdoor light",
-      "source": {
-        "label": "Original photo by Your Name",
-        "url": "#",
-        "note": "Captured during a scheduled portrait session."
-      },
-      "permission": {
-        "status": "Release on file",
-        "publicNote": "Subject approved portfolio and social use.",
-        "proofLabel": "View signed release",
-        "proofUrl": "/proofs/senior-session-release.pdf"
-      }
-    },
-    "nature/sunset": {
-      "title": "Golden Sunset",
-      "description": "A landscape photo captured during golden hour.",
-      "location": "Hill Country",
-      "year": "2026",
-      "featured": true,
-      "peoplePhoto": false,
-      "source": {
-        "label": "Original landscape photo",
-        "url": "#",
-        "note": "Captured by the photographer."
-      },
-      "permission": {
-        "status": "Not needed",
-        "publicNote": "No personal release needed for this image.",
-        "proofLabel": "Usage note",
-        "proofUrl": "#"
-      }
-    }
+  "source/white-sports-car-in-motion": {
+    "title": "White Sports Car in Motion",
+    "description": "A white sports car captured mid-motion on a city street.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Action",
+    "tags": ["Action", "Automotive", "Motion", "Street"]
+  },
+  "source/cyclist-behind-the-rail": {
+    "title": "Cyclist Behind the Rail",
+    "description": "A cyclist framed behind a metal rail in an urban setting.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Action",
+    "tags": ["Action", "Street", "Outdoor"]
+  },
+  "source/city-light-trails": {
+    "title": "City Light Trails",
+    "description": "Long-exposure light trails from city traffic cutting through the night.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": true,
+    "peoplePhoto": false,
+    "category": "Action",
+    "tags": ["Action", "Low Light", "Night", "Light Trails", "Urban"]
+  },
+  "source/black-white-concert-motion": {
+    "title": "Black and White Concert Motion",
+    "description": "Motion-blurred black and white capture of energy at a live concert.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": true,
+    "category": "Action",
+    "tags": ["Action", "Black & White", "Event", "Music", "Motion"]
+  },
+  "source/dog-with-toy": {
+    "title": "Dog with Toy",
+    "description": "A dog posed playfully with its favorite toy.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Animal",
+    "tags": ["Animal", "Pet", "Dog"]
+  },
+  "source/cat-in-grass": {
+    "title": "Cat in Grass",
+    "description": "A cat resting in lush green grass outdoors.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Animal",
+    "tags": ["Animal", "Pet", "Cat", "Outdoor"]
+  },
+  "source/dog-at-the-door": {
+    "title": "Dog at the Door",
+    "description": "A dog waiting patiently at an interior door.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Animal",
+    "tags": ["Animal", "Pet", "Dog", "Indoor"]
+  },
+  "source/foggy-apartment-exterior": {
+    "title": "Foggy Apartment Exterior",
+    "description": "An apartment building exterior dissolving into a thick morning fog.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Architecture",
+    "tags": ["Architecture", "Fog", "Black & White"]
+  },
+  "source/black-white-urban-parking-garage": {
+    "title": "Black and White Urban Parking Garage",
+    "description": "Graphic lines and shadows of a multi-level urban parking structure.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Architecture",
+    "tags": ["Architecture", "Black & White", "Urban"]
+  },
+  "source/trailer-under-bare-trees": {
+    "title": "Trailer Under Bare Trees",
+    "description": "A parked trailer nestled beneath a row of bare winter trees.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Architecture",
+    "tags": ["Architecture", "Landscape", "Outdoor"]
+  },
+  "source/yellow-house-afternoon-light": {
+    "title": "Yellow House in Afternoon Light",
+    "description": "A yellow house bathed in warm afternoon sunlight.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Architecture",
+    "tags": ["Architecture", "House", "Color", "Outdoor"]
+  },
+  "source/red-roof-apartment-walkway": {
+    "title": "Red Roof Apartment Walkway",
+    "description": "A covered outdoor walkway with a bold red roof along an apartment building.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Architecture",
+    "tags": ["Architecture", "Apartment", "Outdoor"]
+  },
+  "source/brick-house-porch": {
+    "title": "Brick House Porch",
+    "description": "A classic brick house porch with warm natural lighting.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Architecture",
+    "tags": ["Architecture", "House", "Porch", "Color"]
+  },
+  "source/camaro-parking-lot-portrait": {
+    "title": "Camaro Parking Lot Portrait",
+    "description": "A Camaro photographed in a parking lot with a clean portrait composition.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Automotive",
+    "tags": ["Automotive", "Portrait", "Car"]
+  },
+  "source/black-white-honda-snowy-road": {
+    "title": "Black and White Honda on Snowy Road",
+    "description": "A Honda photographed in black and white on a snow-covered road.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": true,
+    "peoplePhoto": false,
+    "category": "Automotive",
+    "tags": ["Automotive", "Black & White", "Winter", "Street"]
+  },
+  "source/overhead-concert-singer": {
+    "title": "Overhead Concert Singer",
+    "description": "A singer captured from an overhead angle during a live performance.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": true,
+    "peoplePhoto": true,
+    "category": "Black & White",
+    "tags": ["Black & White", "Event", "Music", "Concert"]
+  },
+  "source/black-white-neighborhood-sky": {
+    "title": "Black and White Neighborhood Sky",
+    "description": "A neighborhood roofline against a dramatic black and white sky.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Black & White",
+    "tags": ["Black & White", "Landscape", "Sky"]
+  },
+  "source/crescent-moon-behind-clouds": {
+    "title": "Crescent Moon Behind Clouds",
+    "description": "A crescent moon partially obscured by drifting clouds.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Black & White",
+    "tags": ["Black & White", "Landscape", "Moon", "Sky"]
+  },
+  "source/rain-streaks-on-brick-wall": {
+    "title": "Rain Streaks on Brick Wall",
+    "description": "Rain streaks tracing patterns across a textured brick wall.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Black & White",
+    "tags": ["Black & White", "Macro", "Texture", "Rain"]
+  },
+  "source/black-white-guitar-performance": {
+    "title": "Black and White Guitar Performance",
+    "description": "A guitarist mid-performance captured in high-contrast black and white.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": true,
+    "category": "Black & White",
+    "tags": ["Black & White", "Event", "Music", "Concert"]
+  },
+  "source/punk-show-vocalist": {
+    "title": "Punk Show Vocalist",
+    "description": "A vocalist at a punk show commanding the stage with raw energy.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": true,
+    "category": "Black & White",
+    "tags": ["Black & White", "Event", "Music", "Concert"]
+  },
+  "source/foggy-apartment-skyline": {
+    "title": "Foggy Apartment Skyline",
+    "description": "A foggy city skyline partially visible behind apartment buildings.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Landscape",
+    "tags": ["Landscape", "Fog", "Architecture"]
+  },
+  "source/cloudy-city-overlook": {
+    "title": "Cloudy City Overlook",
+    "description": "A city viewed from an overlook beneath a heavy overcast sky.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Landscape",
+    "tags": ["Landscape", "City", "Sky"]
+  },
+  "source/stormy-skyline-overlook": {
+    "title": "Stormy Skyline Overlook",
+    "description": "A city skyline viewed from an elevated overlook under stormy skies.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Landscape",
+    "tags": ["Landscape", "Storm", "Sky", "City"]
+  },
+  "source/neon-alley-at-night": {
+    "title": "Neon Alley at Night",
+    "description": "A narrow urban alley lit by vivid neon lights after dark.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": true,
+    "peoplePhoto": false,
+    "category": "Low Light",
+    "tags": ["Low Light", "Night", "Street", "Color", "Urban"]
+  },
+  "source/cactus-at-golden-hour": {
+    "title": "Cactus at Golden Hour",
+    "description": "A cactus photographed up close during warm golden-hour light.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Macro",
+    "tags": ["Macro", "Nature", "Cactus", "Golden Hour"]
+  },
+  "source/grasshopper-close-up": {
+    "title": "Grasshopper Close-Up",
+    "description": "A grasshopper photographed in sharp macro detail.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": true,
+    "peoplePhoto": false,
+    "category": "Macro",
+    "tags": ["Macro", "Nature", "Animal", "Insect"]
+  },
+  "source/pink-spring-blossoms": {
+    "title": "Pink Spring Blossoms",
+    "description": "Delicate pink blossoms blooming on a tree branch in spring.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Nature",
+    "tags": ["Nature", "Flowers", "Spring", "Color"]
+  },
+  "source/green-brush-along-fence": {
+    "title": "Green Brush Along Fence",
+    "description": "Lush green brush growing densely along a wooden fence line.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Nature",
+    "tags": ["Nature", "Landscape", "Fence", "Outdoor"]
+  },
+  "source/volleyball-portrait": {
+    "title": "Volleyball Portrait",
+    "description": "A volleyball player lit with off-camera flash in a dynamic portrait.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": true,
+    "category": "Portrait",
+    "tags": ["Portrait", "Sports", "Flash", "People"]
+  },
+  "source/blue-flash-portrait": {
+    "title": "Blue Flash Portrait",
+    "description": "A dramatic portrait lit with a vivid blue off-camera flash.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": true,
+    "peoplePhoto": true,
+    "category": "Portrait",
+    "tags": ["Portrait", "Flash", "People", "Color"]
+  },
+  "source/green-led-portrait": {
+    "title": "Green LED Portrait",
+    "description": "A portrait lit with an intense green LED light source.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": true,
+    "category": "Portrait",
+    "tags": ["Portrait", "Flash", "People", "Color"]
   }
+}

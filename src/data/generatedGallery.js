@@ -8,7 +8,6 @@ export const AUTO_PHOTO_CATEGORIES = [
   "Architecture",
   "Automotive",
   "Black & White",
-  "Event",
   "Landscape",
   "Low Light",
   "Macro",
@@ -16,14 +15,136 @@ export const AUTO_PHOTO_CATEGORIES = [
   "Portrait"
 ]
 
+export const AUTO_PHOTO_TAGS = [
+  "Action",
+  "Animal",
+  "Apartment",
+  "Architecture",
+  "Automotive",
+  "Black & White",
+  "Cactus",
+  "Car",
+  "Cat",
+  "City",
+  "Color",
+  "Concert",
+  "Dog",
+  "Event",
+  "Fence",
+  "Flash",
+  "Flowers",
+  "Fog",
+  "Golden Hour",
+  "House",
+  "Indoor",
+  "Insect",
+  "Landscape",
+  "Landscape Orientation",
+  "Light Trails",
+  "Low Light",
+  "Macro",
+  "Moon",
+  "Motion",
+  "Music",
+  "Nature",
+  "Night",
+  "Outdoor",
+  "People",
+  "Pet",
+  "Porch",
+  "Portrait",
+  "Portrait Orientation",
+  "Rain",
+  "Sky",
+  "Sports",
+  "Spring",
+  "Square",
+  "Storm",
+  "Street",
+  "Texture",
+  "Urban",
+  "Winter"
+]
+
 export const AUTO_GALLERY_ITEMS = [
   {
-    "id": "action-felixr-2-1",
-    "title": "FelixR 2",
+    "id": "source-black-white-concert-motion-2",
+    "title": "Black and White Concert Motion",
     "category": "Action",
-    "image": "/images/Action/FelixR_-2.jpg",
-    "alt": "FelixR 2 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Black & White",
+      "Event",
+      "Portrait Orientation",
+      "Action",
+      "Music",
+      "Motion"
+    ],
+    "autoTags": [
+      "Black & White",
+      "Event",
+      "Portrait Orientation"
+    ],
+    "manualTags": [
+      "Action",
+      "Black & White",
+      "Event",
+      "Music",
+      "Motion"
+    ],
+    "image": "/generated/images/source/black-white-concert-motion_full.webp",
+    "thumbnail": "/generated/images/source/black-white-concert-motion_thumb.webp",
+    "preview": "/generated/images/source/black-white-concert-motion_preview.webp",
+    "originalImage": "/images/source/black-white-concert-motion.jpg",
+    "alt": "Black White Concert Motion photography",
+    "description": "Motion-blurred black and white capture of energy at a live concert.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": true,
+    "source": {
+      "label": "Original photo by photographer",
+      "url": "#",
+      "note": "Add source details in public/images/photo-data.json if needed."
+    },
+    "permission": {
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
+      "proofUrl": "#"
+    },
+    "duplicateCount": 3
+  },
+  {
+    "id": "source-city-light-trails-12",
+    "title": "City Light Trails",
+    "category": "Action",
+    "tags": [
+      "Low Light",
+      "Street",
+      "Portrait Orientation",
+      "Action",
+      "Night",
+      "Light Trails",
+      "Urban"
+    ],
+    "autoTags": [
+      "Low Light",
+      "Street",
+      "Portrait Orientation"
+    ],
+    "manualTags": [
+      "Action",
+      "Low Light",
+      "Night",
+      "Light Trails",
+      "Urban"
+    ],
+    "image": "/generated/images/source/city-light-trails_full.webp",
+    "thumbnail": "/generated/images/source/city-light-trails_thumb.webp",
+    "preview": "/generated/images/source/city-light-trails_preview.webp",
+    "originalImage": "/images/source/city-light-trails.jpg",
+    "alt": "City Light Trails photography",
+    "description": "Long-exposure light trails from city traffic cutting through the night.",
     "location": "Location not added",
     "year": "2026",
     "featured": true,
@@ -38,18 +159,36 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "action-felixr-32-2",
-    "title": "FelixR 32",
+    "id": "source-cyclist-behind-the-rail-15",
+    "title": "Cyclist Behind the Rail",
     "category": "Action",
-    "image": "/images/Action/FelixR_-32.jpg",
-    "alt": "FelixR 32 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape Orientation",
+      "Action",
+      "Street",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Action",
+      "Street",
+      "Outdoor"
+    ],
+    "image": "/generated/images/source/cyclist-behind-the-rail_full.webp",
+    "thumbnail": "/generated/images/source/cyclist-behind-the-rail_thumb.webp",
+    "preview": "/generated/images/source/cyclist-behind-the-rail_preview.webp",
+    "originalImage": "/images/source/cyclist-behind-the-rail.jpg",
+    "alt": "Cyclist Behind The Rail photography",
+    "description": "A cyclist framed behind a metal rail in an urban setting.",
     "location": "Location not added",
     "year": "2026",
-    "featured": true,
+    "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
@@ -64,15 +203,37 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "action-felixr-6-3",
-    "title": "FelixR 6",
+    "id": "source-white-sports-car-in-motion-32",
+    "title": "White Sports Car in Motion",
     "category": "Action",
-    "image": "/images/Action/FelixR_-6.jpg",
-    "alt": "FelixR 6 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Automotive",
+      "Landscape Orientation",
+      "Black & White",
+      "Action",
+      "Motion",
+      "Street"
+    ],
+    "autoTags": [
+      "Automotive",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Action",
+      "Automotive",
+      "Motion",
+      "Street"
+    ],
+    "image": "/generated/images/source/white-sports-car-in-motion_full.webp",
+    "thumbnail": "/generated/images/source/white-sports-car-in-motion_thumb.webp",
+    "preview": "/generated/images/source/white-sports-car-in-motion_preview.webp",
+    "originalImage": "/images/source/white-sports-car-in-motion.jpg",
+    "alt": "White Sports Car In Motion photography",
+    "description": "A white sports car captured mid-motion on a city street.",
     "location": "Location not added",
     "year": "2026",
-    "featured": true,
+    "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
@@ -84,38 +245,35 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
-  },
-  {
-    "id": "action-felixr-7-4",
-    "title": "FelixR 7",
-    "category": "Action",
-    "image": "/images/Action/FelixR_-7.jpg",
-    "alt": "FelixR 7 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": true,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
     },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
+    "duplicateCount": 2
   },
   {
-    "id": "animal-felixr-18-5",
-    "title": "FelixR 18",
+    "id": "source-cat-in-grass-11",
+    "title": "Cat in Grass",
     "category": "Animal",
-    "image": "/images/Animal/FelixR_-18.jpg",
-    "alt": "FelixR 18 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Square",
+      "Animal",
+      "Pet",
+      "Cat",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Square"
+    ],
+    "manualTags": [
+      "Animal",
+      "Pet",
+      "Cat",
+      "Outdoor"
+    ],
+    "image": "/generated/images/source/cat-in-grass_full.webp",
+    "thumbnail": "/generated/images/source/cat-in-grass_thumb.webp",
+    "preview": "/generated/images/source/cat-in-grass_preview.webp",
+    "originalImage": "/images/source/cat-in-grass.jpg",
+    "alt": "Cat In Grass photography",
+    "description": "A cat resting in lush green grass outdoors.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -133,12 +291,33 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "animal-felixr-19-6",
-    "title": "FelixR 19",
+    "id": "source-dog-at-the-door-16",
+    "title": "Dog at the Door",
     "category": "Animal",
-    "image": "/images/Animal/FelixR_-19.jpg",
-    "alt": "FelixR 19 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape Orientation",
+      "Black & White",
+      "Animal",
+      "Pet",
+      "Dog",
+      "Indoor"
+    ],
+    "autoTags": [
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Animal",
+      "Pet",
+      "Dog",
+      "Indoor"
+    ],
+    "image": "/generated/images/source/dog-at-the-door_full.webp",
+    "thumbnail": "/generated/images/source/dog-at-the-door_thumb.webp",
+    "preview": "/generated/images/source/dog-at-the-door_preview.webp",
+    "originalImage": "/images/source/dog-at-the-door.jpg",
+    "alt": "Dog At The Door photography",
+    "description": "A dog waiting patiently at an interior door.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -156,12 +335,31 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "animal-felixr-23-7",
-    "title": "FelixR 23",
+    "id": "source-dog-with-toy-17",
+    "title": "Dog with Toy",
     "category": "Animal",
-    "image": "/images/Animal/FelixR_-23.jpg",
-    "alt": "FelixR 23 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Portrait Orientation",
+      "Black & White",
+      "Animal",
+      "Pet",
+      "Dog"
+    ],
+    "autoTags": [
+      "Portrait Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Animal",
+      "Pet",
+      "Dog"
+    ],
+    "image": "/generated/images/source/dog-with-toy_full.webp",
+    "thumbnail": "/generated/images/source/dog-with-toy_thumb.webp",
+    "preview": "/generated/images/source/dog-with-toy_preview.webp",
+    "originalImage": "/images/source/dog-with-toy.jpg",
+    "alt": "Dog With Toy photography",
+    "description": "A dog posed playfully with its favorite toy.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -179,12 +377,32 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "architecture-felixr-13-8",
-    "title": "FelixR 13",
+    "id": "source-black-white-urban-parking-garage-6",
+    "title": "Black and White Urban Parking Garage",
     "category": "Architecture",
-    "image": "/images/Architecture/FelixR_-13.jpg",
-    "alt": "FelixR 13 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Black & White",
+      "Street",
+      "Landscape Orientation",
+      "Architecture",
+      "Urban"
+    ],
+    "autoTags": [
+      "Black & White",
+      "Street",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Architecture",
+      "Black & White",
+      "Urban"
+    ],
+    "image": "/generated/images/source/black-white-urban-parking-garage_full.webp",
+    "thumbnail": "/generated/images/source/black-white-urban-parking-garage_thumb.webp",
+    "preview": "/generated/images/source/black-white-urban-parking-garage_preview.webp",
+    "originalImage": "/images/source/black-white-urban-parking-garage.jpg",
+    "alt": "Black White Urban Parking Garage photography",
+    "description": "Graphic lines and shadows of a multi-level urban parking structure.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -199,15 +417,35 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "architecture-felixr-15-9",
-    "title": "FelixR 15",
+    "id": "source-brick-house-porch-8",
+    "title": "Brick House Porch",
     "category": "Architecture",
-    "image": "/images/Architecture/FelixR_-15.jpg",
-    "alt": "FelixR 15 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape Orientation",
+      "Architecture",
+      "House",
+      "Porch",
+      "Color"
+    ],
+    "autoTags": [
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Architecture",
+      "House",
+      "Porch",
+      "Color"
+    ],
+    "image": "/generated/images/source/brick-house-porch_full.webp",
+    "thumbnail": "/generated/images/source/brick-house-porch_thumb.webp",
+    "preview": "/generated/images/source/brick-house-porch_preview.webp",
+    "originalImage": "/images/source/brick-house-porch.jpg",
+    "alt": "Brick House Porch photography",
+    "description": "A classic brick house porch with warm natural lighting.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -225,12 +463,30 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "architecture-felixr-17-10",
-    "title": "FelixR 17",
+    "id": "source-foggy-apartment-exterior-18",
+    "title": "Foggy Apartment Exterior",
     "category": "Architecture",
-    "image": "/images/Architecture/FelixR_-17.jpg",
-    "alt": "FelixR 17 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Portrait Orientation",
+      "Black & White",
+      "Architecture",
+      "Fog"
+    ],
+    "autoTags": [
+      "Portrait Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Architecture",
+      "Fog",
+      "Black & White"
+    ],
+    "image": "/generated/images/source/foggy-apartment-exterior_full.webp",
+    "thumbnail": "/generated/images/source/foggy-apartment-exterior_thumb.webp",
+    "preview": "/generated/images/source/foggy-apartment-exterior_preview.webp",
+    "originalImage": "/images/source/foggy-apartment-exterior.jpg",
+    "alt": "Foggy Apartment Exterior photography",
+    "description": "An apartment building exterior dissolving into a thick morning fog.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -248,12 +504,29 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "architecture-felixr-20-11",
-    "title": "FelixR 20",
+    "id": "source-red-roof-apartment-walkway-28",
+    "title": "Red Roof Apartment Walkway",
     "category": "Architecture",
-    "image": "/images/Architecture/FelixR_-20.jpg",
-    "alt": "FelixR 20 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape Orientation",
+      "Architecture",
+      "Apartment",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Architecture",
+      "Apartment",
+      "Outdoor"
+    ],
+    "image": "/generated/images/source/red-roof-apartment-walkway_full.webp",
+    "thumbnail": "/generated/images/source/red-roof-apartment-walkway_thumb.webp",
+    "preview": "/generated/images/source/red-roof-apartment-walkway_preview.webp",
+    "originalImage": "/images/source/red-roof-apartment-walkway.jpg",
+    "alt": "Red Roof Apartment Walkway photography",
+    "description": "A covered outdoor walkway with a bold red roof along an apartment building.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -271,12 +544,31 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "architecture-felixr-21-12",
-    "title": "FelixR 21",
+    "id": "source-trailer-under-bare-trees-30",
+    "title": "Trailer Under Bare Trees",
     "category": "Architecture",
-    "image": "/images/Architecture/FelixR_-21.jpg",
-    "alt": "FelixR 21 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Nature",
+      "Landscape Orientation",
+      "Architecture",
+      "Landscape",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Nature",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Architecture",
+      "Landscape",
+      "Outdoor"
+    ],
+    "image": "/generated/images/source/trailer-under-bare-trees_full.webp",
+    "thumbnail": "/generated/images/source/trailer-under-bare-trees_thumb.webp",
+    "preview": "/generated/images/source/trailer-under-bare-trees_preview.webp",
+    "originalImage": "/images/source/trailer-under-bare-trees.jpg",
+    "alt": "Trailer Under Bare Trees photography",
+    "description": "A parked trailer nestled beneath a row of bare winter trees.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -294,12 +586,31 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "architecture-felixr-24-13",
-    "title": "FelixR 24",
+    "id": "source-yellow-house-afternoon-light-33",
+    "title": "Yellow House in Afternoon Light",
     "category": "Architecture",
-    "image": "/images/Architecture/FelixR_-24.jpg",
-    "alt": "FelixR 24 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape Orientation",
+      "Architecture",
+      "House",
+      "Color",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Architecture",
+      "House",
+      "Color",
+      "Outdoor"
+    ],
+    "image": "/generated/images/source/yellow-house-afternoon-light_full.webp",
+    "thumbnail": "/generated/images/source/yellow-house-afternoon-light_thumb.webp",
+    "preview": "/generated/images/source/yellow-house-afternoon-light_preview.webp",
+    "originalImage": "/images/source/yellow-house-afternoon-light.jpg",
+    "alt": "Yellow House Afternoon Light photography",
+    "description": "A yellow house bathed in warm afternoon sunlight.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -317,15 +628,36 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "automotive-felixr-2-14",
-    "title": "FelixR 2",
+    "id": "source-black-white-honda-snowy-road-4",
+    "title": "Black and White Honda on Snowy Road",
     "category": "Automotive",
-    "image": "/images/Automotive/FelixR_-2.jpg",
-    "alt": "FelixR 2 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Automotive",
+      "Black & White",
+      "Landscape Orientation",
+      "Winter",
+      "Street"
+    ],
+    "autoTags": [
+      "Automotive",
+      "Black & White",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Automotive",
+      "Black & White",
+      "Winter",
+      "Street"
+    ],
+    "image": "/generated/images/source/black-white-honda-snowy-road_full.webp",
+    "thumbnail": "/generated/images/source/black-white-honda-snowy-road_thumb.webp",
+    "preview": "/generated/images/source/black-white-honda-snowy-road_preview.webp",
+    "originalImage": "/images/source/black-white-honda-snowy-road.jpg",
+    "alt": "Black White Honda Snowy Road photography",
+    "description": "A Honda photographed in black and white on a snow-covered road.",
     "location": "Location not added",
     "year": "2026",
-    "featured": false,
+    "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
@@ -337,15 +669,36 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 4
   },
   {
-    "id": "automotive-felixr-22-15",
-    "title": "FelixR 22",
+    "id": "source-camaro-parking-lot-portrait-10",
+    "title": "Camaro Parking Lot Portrait",
     "category": "Automotive",
-    "image": "/images/Automotive/FelixR_-22.jpg",
-    "alt": "FelixR 22 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Portrait",
+      "Landscape Orientation",
+      "Black & White",
+      "Automotive",
+      "Car"
+    ],
+    "autoTags": [
+      "Portrait",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Automotive",
+      "Portrait",
+      "Car"
+    ],
+    "image": "/generated/images/source/camaro-parking-lot-portrait_full.webp",
+    "thumbnail": "/generated/images/source/camaro-parking-lot-portrait_thumb.webp",
+    "preview": "/generated/images/source/camaro-parking-lot-portrait_preview.webp",
+    "originalImage": "/images/source/camaro-parking-lot-portrait.jpg",
+    "alt": "Camaro Parking Lot Portrait photography",
+    "description": "A Camaro photographed in a parking lot with a clean portrait composition.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -363,81 +716,78 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "automotive-felixr-27-16",
-    "title": "FelixR 27",
-    "category": "Automotive",
-    "image": "/images/Automotive/FelixR_-27.jpg",
-    "alt": "FelixR 27 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "automotive-felixr-35-17",
-    "title": "FelixR 35",
-    "category": "Automotive",
-    "image": "/images/Automotive/FelixR_-35.jpg",
-    "alt": "FelixR 35 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "black-white-felixr-10-18",
-    "title": "FelixR 10",
+    "id": "source-black-white-guitar-performance-3",
+    "title": "Black and White Guitar Performance",
     "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-10.jpg",
-    "alt": "FelixR 10 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Event",
+      "Black & White",
+      "Landscape Orientation",
+      "Music",
+      "Concert"
+    ],
+    "autoTags": [
+      "Event",
+      "Black & White",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Black & White",
+      "Event",
+      "Music",
+      "Concert"
+    ],
+    "image": "/generated/images/source/black-white-guitar-performance_full.webp",
+    "thumbnail": "/generated/images/source/black-white-guitar-performance_thumb.webp",
+    "preview": "/generated/images/source/black-white-guitar-performance_preview.webp",
+    "originalImage": "/images/source/black-white-guitar-performance.jpg",
+    "alt": "Black White Guitar Performance photography",
+    "description": "A guitarist mid-performance captured in high-contrast black and white.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
-    "peoplePhoto": false,
+    "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
       "note": "Add source details in public/images/photo-data.json if needed."
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "black-white-felixr-11-19",
-    "title": "FelixR 11",
+    "id": "source-black-white-neighborhood-sky-5",
+    "title": "Black and White Neighborhood Sky",
     "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-11.jpg",
-    "alt": "FelixR 11 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape",
+      "Black & White",
+      "Nature",
+      "Portrait Orientation",
+      "Sky"
+    ],
+    "autoTags": [
+      "Landscape",
+      "Black & White",
+      "Nature",
+      "Portrait Orientation"
+    ],
+    "manualTags": [
+      "Black & White",
+      "Landscape",
+      "Sky"
+    ],
+    "image": "/generated/images/source/black-white-neighborhood-sky_full.webp",
+    "thumbnail": "/generated/images/source/black-white-neighborhood-sky_thumb.webp",
+    "preview": "/generated/images/source/black-white-neighborhood-sky_preview.webp",
+    "originalImage": "/images/source/black-white-neighborhood-sky.jpg",
+    "alt": "Black White Neighborhood Sky photography",
+    "description": "A neighborhood roofline against a dramatic black and white sky.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -452,15 +802,37 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "black-white-felixr-14-20",
-    "title": "FelixR 14",
+    "id": "source-crescent-moon-behind-clouds-14",
+    "title": "Crescent Moon Behind Clouds",
     "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-14.jpg",
-    "alt": "FelixR 14 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape",
+      "Landscape Orientation",
+      "Black & White",
+      "Moon",
+      "Sky"
+    ],
+    "autoTags": [
+      "Landscape",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Black & White",
+      "Landscape",
+      "Moon",
+      "Sky"
+    ],
+    "image": "/generated/images/source/crescent-moon-behind-clouds_full.webp",
+    "thumbnail": "/generated/images/source/crescent-moon-behind-clouds_thumb.webp",
+    "preview": "/generated/images/source/crescent-moon-behind-clouds_preview.webp",
+    "originalImage": "/images/source/crescent-moon-behind-clouds.jpg",
+    "alt": "Crescent Moon Behind Clouds photography",
+    "description": "A crescent moon partially obscured by drifting clouds.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -475,61 +847,126 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "black-white-felixr-15-21",
-    "title": "FelixR 15",
+    "id": "source-overhead-concert-singer-24",
+    "title": "Overhead Concert Singer",
     "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-15.jpg",
-    "alt": "FelixR 15 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Event",
+      "Landscape Orientation",
+      "Black & White",
+      "Music",
+      "Concert"
+    ],
+    "autoTags": [
+      "Event",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Black & White",
+      "Event",
+      "Music",
+      "Concert"
+    ],
+    "image": "/generated/images/source/overhead-concert-singer_full.webp",
+    "thumbnail": "/generated/images/source/overhead-concert-singer_thumb.webp",
+    "preview": "/generated/images/source/overhead-concert-singer_preview.webp",
+    "originalImage": "/images/source/overhead-concert-singer.jpg",
+    "alt": "Overhead Concert Singer photography",
+    "description": "A singer captured from an overhead angle during a live performance.",
     "location": "Location not added",
     "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
+    "featured": true,
+    "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
       "note": "Add source details in public/images/photo-data.json if needed."
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "black-white-felixr-26-22",
-    "title": "FelixR 26",
+    "id": "source-punk-show-vocalist-26",
+    "title": "Punk Show Vocalist",
     "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-26.jpg",
-    "alt": "FelixR 26 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Event",
+      "Landscape Orientation",
+      "Black & White",
+      "Music",
+      "Concert"
+    ],
+    "autoTags": [
+      "Event",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Black & White",
+      "Event",
+      "Music",
+      "Concert"
+    ],
+    "image": "/generated/images/source/punk-show-vocalist_full.webp",
+    "thumbnail": "/generated/images/source/punk-show-vocalist_thumb.webp",
+    "preview": "/generated/images/source/punk-show-vocalist_preview.webp",
+    "originalImage": "/images/source/punk-show-vocalist.jpg",
+    "alt": "Punk Show Vocalist photography",
+    "description": "A vocalist at a punk show commanding the stage with raw energy.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
-    "peoplePhoto": false,
+    "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
       "note": "Add source details in public/images/photo-data.json if needed."
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "black-white-felixr-27-23",
-    "title": "FelixR 27",
+    "id": "source-rain-streaks-on-brick-wall-27",
+    "title": "Rain Streaks on Brick Wall",
     "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-27.jpg",
-    "alt": "FelixR 27 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Black & White",
+      "Landscape Orientation",
+      "Macro",
+      "Texture",
+      "Rain"
+    ],
+    "autoTags": [
+      "Black & White",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Black & White",
+      "Macro",
+      "Texture",
+      "Rain"
+    ],
+    "image": "/generated/images/source/rain-streaks-on-brick-wall_full.webp",
+    "thumbnail": "/generated/images/source/rain-streaks-on-brick-wall_thumb.webp",
+    "preview": "/generated/images/source/rain-streaks-on-brick-wall_preview.webp",
+    "originalImage": "/images/source/rain-streaks-on-brick-wall.jpg",
+    "alt": "Rain Streaks On Brick Wall photography",
+    "description": "Rain streaks tracing patterns across a textured brick wall.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -544,222 +981,35 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
-  },
-  {
-    "id": "black-white-felixr-34-24",
-    "title": "FelixR 34",
-    "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-34.jpg",
-    "alt": "FelixR 34 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
     },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
+    "duplicateCount": 2
   },
   {
-    "id": "black-white-felixr-35-25",
-    "title": "FelixR 35",
-    "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-35.jpg",
-    "alt": "FelixR 35 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "black-white-felixr-7-26",
-    "title": "FelixR 7",
-    "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-7.jpg",
-    "alt": "FelixR 7 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "black-white-felixr-8-27",
-    "title": "FelixR 8",
-    "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-8.jpg",
-    "alt": "FelixR 8 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "black-white-felixr-9-28",
-    "title": "FelixR 9",
-    "category": "Black & White",
-    "image": "/images/Black & White/FelixR_-9.jpg",
-    "alt": "FelixR 9 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "event-felixr-10-29",
-    "title": "FelixR 10",
-    "category": "Event",
-    "image": "/images/Event/FelixR_-10.jpg",
-    "alt": "FelixR 10 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "event-felixr-7-30",
-    "title": "FelixR 7",
-    "category": "Event",
-    "image": "/images/Event/FelixR_-7.jpg",
-    "alt": "FelixR 7 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "event-felixr-8-31",
-    "title": "FelixR 8",
-    "category": "Event",
-    "image": "/images/Event/FelixR_-8.jpg",
-    "alt": "FelixR 8 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "event-felixr-9-32",
-    "title": "FelixR 9",
-    "category": "Event",
-    "image": "/images/Event/FelixR_-9.jpg",
-    "alt": "FelixR 9 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "landscape-felixr-11-33",
-    "title": "FelixR 11",
+    "id": "source-cloudy-city-overlook-13",
+    "title": "Cloudy City Overlook",
     "category": "Landscape",
-    "image": "/images/Landscape/FelixR_-11.jpg",
-    "alt": "FelixR 11 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Street",
+      "Landscape Orientation",
+      "Landscape",
+      "City",
+      "Sky"
+    ],
+    "autoTags": [
+      "Street",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Landscape",
+      "City",
+      "Sky"
+    ],
+    "image": "/generated/images/source/cloudy-city-overlook_full.webp",
+    "thumbnail": "/generated/images/source/cloudy-city-overlook_thumb.webp",
+    "preview": "/generated/images/source/cloudy-city-overlook_preview.webp",
+    "originalImage": "/images/source/cloudy-city-overlook.jpg",
+    "alt": "Cloudy City Overlook photography",
+    "description": "A city viewed from an overlook beneath a heavy overcast sky.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -777,79 +1027,22 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "landscape-felixr-12-34",
-    "title": "FelixR 12",
-    "category": "Landscape",
-    "image": "/images/Landscape/FelixR_-12.jpg",
-    "alt": "FelixR 12 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "landscape-felixr-14-35",
-    "title": "FelixR 14",
-    "category": "Landscape",
-    "image": "/images/Landscape/FelixR_-14.jpg",
-    "alt": "FelixR 14 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "landscape-felixr-29-36",
-    "title": "FelixR 29",
-    "category": "Landscape",
-    "image": "/images/Landscape/FelixR_-29.jpg",
-    "alt": "FelixR 29 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "landscape-felixr-37-37",
+    "id": "landscape-felixr-37-1",
     "title": "FelixR 37",
     "category": "Landscape",
-    "image": "/images/Landscape/FelixR_-37.jpg",
+    "tags": [
+      "Landscape",
+      "Landscape Orientation"
+    ],
+    "autoTags": [
+      "Landscape",
+      "Landscape Orientation"
+    ],
+    "manualTags": [],
+    "image": "/generated/images/Landscape/FelixR_-37_full.webp",
+    "thumbnail": "/generated/images/Landscape/FelixR_-37_thumb.webp",
+    "preview": "/generated/images/Landscape/FelixR_-37_preview.webp",
+    "originalImage": "/images/Landscape/FelixR_-37.jpg",
     "alt": "FelixR 37 photography",
     "description": "Add a description for this photo in public/images/photo-data.json.",
     "location": "Location not added",
@@ -869,12 +1062,33 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "landscape-felixr-5-38",
-    "title": "FelixR 5",
+    "id": "source-foggy-apartment-skyline-19",
+    "title": "Foggy Apartment Skyline",
     "category": "Landscape",
-    "image": "/images/Landscape/FelixR_-5.jpg",
-    "alt": "FelixR 5 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Nature",
+      "Landscape Orientation",
+      "Black & White",
+      "Landscape",
+      "Fog",
+      "Architecture"
+    ],
+    "autoTags": [
+      "Nature",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Landscape",
+      "Fog",
+      "Architecture"
+    ],
+    "image": "/generated/images/source/foggy-apartment-skyline_full.webp",
+    "thumbnail": "/generated/images/source/foggy-apartment-skyline_thumb.webp",
+    "preview": "/generated/images/source/foggy-apartment-skyline_preview.webp",
+    "originalImage": "/images/source/foggy-apartment-skyline.jpg",
+    "alt": "Foggy Apartment Skyline photography",
+    "description": "A foggy city skyline partially visible behind apartment buildings.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -892,15 +1106,85 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "low-light-felixr-30-39",
-    "title": "FelixR 30",
+    "id": "source-stormy-skyline-overlook-29",
+    "title": "Stormy Skyline Overlook",
+    "category": "Landscape",
+    "tags": [
+      "Nature",
+      "Landscape Orientation",
+      "Black & White",
+      "Landscape",
+      "Storm",
+      "Sky",
+      "City"
+    ],
+    "autoTags": [
+      "Nature",
+      "Landscape Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Landscape",
+      "Storm",
+      "Sky",
+      "City"
+    ],
+    "image": "/generated/images/source/stormy-skyline-overlook_full.webp",
+    "thumbnail": "/generated/images/source/stormy-skyline-overlook_thumb.webp",
+    "preview": "/generated/images/source/stormy-skyline-overlook_preview.webp",
+    "originalImage": "/images/source/stormy-skyline-overlook.jpg",
+    "alt": "Stormy Skyline Overlook photography",
+    "description": "A city skyline viewed from an elevated overlook under stormy skies.",
+    "location": "Location not added",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "source": {
+      "label": "Original photo by photographer",
+      "url": "#",
+      "note": "Add source details in public/images/photo-data.json if needed."
+    },
+    "permission": {
+      "status": "Not marked",
+      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "proofLabel": "Usage note",
+      "proofUrl": "#"
+    }
+  },
+  {
+    "id": "source-neon-alley-at-night-23",
+    "title": "Neon Alley at Night",
     "category": "Low Light",
-    "image": "/images/Low-Light/FelixR_-30.jpg",
-    "alt": "FelixR 30 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Low Light",
+      "Portrait Orientation",
+      "Black & White",
+      "Night",
+      "Street",
+      "Color",
+      "Urban"
+    ],
+    "autoTags": [
+      "Low Light",
+      "Portrait Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Low Light",
+      "Night",
+      "Street",
+      "Color",
+      "Urban"
+    ],
+    "image": "/generated/images/source/neon-alley-at-night_full.webp",
+    "thumbnail": "/generated/images/source/neon-alley-at-night_thumb.webp",
+    "preview": "/generated/images/source/neon-alley-at-night_preview.webp",
+    "originalImage": "/images/source/neon-alley-at-night.jpg",
+    "alt": "Neon Alley At Night photography",
+    "description": "A narrow urban alley lit by vivid neon lights after dark.",
     "location": "Location not added",
     "year": "2026",
-    "featured": false,
+    "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
@@ -912,61 +1196,36 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
-  },
-  {
-    "id": "low-light-felixr-38-40",
-    "title": "FelixR 38",
-    "category": "Low Light",
-    "image": "/images/Low-Light/FelixR_-38.jpg",
-    "alt": "FelixR 38 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
     },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
+    "duplicateCount": 2
   },
   {
-    "id": "low-light-felixr-6-41",
-    "title": "FelixR 6",
-    "category": "Low Light",
-    "image": "/images/Low-Light/FelixR_-6.jpg",
-    "alt": "FelixR 6 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "macro-felixr-44",
-    "title": "FelixR",
+    "id": "source-cactus-at-golden-hour-9",
+    "title": "Cactus at Golden Hour",
     "category": "Macro",
-    "image": "/images/Macro/FelixR_.jpg",
-    "alt": "FelixR photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Macro",
+      "Portrait Orientation",
+      "Nature",
+      "Cactus",
+      "Golden Hour"
+    ],
+    "autoTags": [
+      "Macro",
+      "Portrait Orientation"
+    ],
+    "manualTags": [
+      "Macro",
+      "Nature",
+      "Cactus",
+      "Golden Hour"
+    ],
+    "image": "/generated/images/source/cactus-at-golden-hour_full.webp",
+    "thumbnail": "/generated/images/source/cactus-at-golden-hour_thumb.webp",
+    "preview": "/generated/images/source/cactus-at-golden-hour_preview.webp",
+    "originalImage": "/images/source/cactus-at-golden-hour.jpg",
+    "alt": "Cactus At Golden Hour photography",
+    "description": "A cactus photographed up close during warm golden-hour light.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -981,18 +1240,39 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
+    },
+    "duplicateCount": 2
   },
   {
-    "id": "macro-felixr-25-42",
-    "title": "FelixR 25",
+    "id": "source-grasshopper-close-up-20",
+    "title": "Grasshopper Close-Up",
     "category": "Macro",
-    "image": "/images/Macro/FelixR_-25.jpg",
-    "alt": "FelixR 25 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Macro",
+      "Square",
+      "Nature",
+      "Animal",
+      "Insect"
+    ],
+    "autoTags": [
+      "Macro",
+      "Square"
+    ],
+    "manualTags": [
+      "Macro",
+      "Nature",
+      "Animal",
+      "Insect"
+    ],
+    "image": "/generated/images/source/grasshopper-close-up_full.webp",
+    "thumbnail": "/generated/images/source/grasshopper-close-up_thumb.webp",
+    "preview": "/generated/images/source/grasshopper-close-up_preview.webp",
+    "originalImage": "/images/source/grasshopper-close-up.jpg",
+    "alt": "Grasshopper Close Up photography",
+    "description": "A grasshopper photographed in sharp macro detail.",
     "location": "Location not added",
     "year": "2026",
-    "featured": false,
+    "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
@@ -1007,35 +1287,31 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "macro-felixr-33-43",
-    "title": "FelixR 33",
-    "category": "Macro",
-    "image": "/images/Macro/FelixR_-33.jpg",
-    "alt": "FelixR 33 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "nature-felixr-28-45",
-    "title": "FelixR 28",
+    "id": "source-green-brush-along-fence-21",
+    "title": "Green Brush Along Fence",
     "category": "Nature",
-    "image": "/images/Nature/FelixR_-28.jpg",
-    "alt": "FelixR 28 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Landscape Orientation",
+      "Nature",
+      "Landscape",
+      "Fence",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Nature",
+      "Landscape",
+      "Fence",
+      "Outdoor"
+    ],
+    "image": "/generated/images/source/green-brush-along-fence_full.webp",
+    "thumbnail": "/generated/images/source/green-brush-along-fence_thumb.webp",
+    "preview": "/generated/images/source/green-brush-along-fence_preview.webp",
+    "originalImage": "/images/source/green-brush-along-fence.jpg",
+    "alt": "Green Brush Along Fence photography",
+    "description": "Lush green brush growing densely along a wooden fence line.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -1053,12 +1329,32 @@ export const AUTO_GALLERY_ITEMS = [
     }
   },
   {
-    "id": "nature-felixr-31-46",
-    "title": "FelixR 31",
+    "id": "source-pink-spring-blossoms-25",
+    "title": "Pink Spring Blossoms",
     "category": "Nature",
-    "image": "/images/Nature/FelixR_-31.jpg",
-    "alt": "FelixR 31 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Nature",
+      "Landscape Orientation",
+      "Flowers",
+      "Spring",
+      "Color"
+    ],
+    "autoTags": [
+      "Nature",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Nature",
+      "Flowers",
+      "Spring",
+      "Color"
+    ],
+    "image": "/generated/images/source/pink-spring-blossoms_full.webp",
+    "thumbnail": "/generated/images/source/pink-spring-blossoms_thumb.webp",
+    "preview": "/generated/images/source/pink-spring-blossoms_preview.webp",
+    "originalImage": "/images/source/pink-spring-blossoms.jpg",
+    "alt": "Pink Spring Blossoms photography",
+    "description": "Delicate pink blossoms blooming on a tree branch in spring.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
@@ -1073,97 +1369,137 @@ export const AUTO_GALLERY_ITEMS = [
       "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
-    }
-  },
-  {
-    "id": "nature-felixr-36-47",
-    "title": "FelixR 36",
-    "category": "Nature",
-    "image": "/images/Nature/FelixR_-36.jpg",
-    "alt": "FelixR 36 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
     },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
+    "duplicateCount": 2
   },
   {
-    "id": "portrait-felixr-16-48",
-    "title": "FelixR 16",
+    "id": "source-blue-flash-portrait-7",
+    "title": "Blue Flash Portrait",
     "category": "Portrait",
-    "image": "/images/Portrait/FelixR_-16.jpg",
-    "alt": "FelixR 16 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Portrait",
+      "Portrait Orientation",
+      "Flash",
+      "People",
+      "Color"
+    ],
+    "autoTags": [
+      "Portrait",
+      "Portrait Orientation"
+    ],
+    "manualTags": [
+      "Portrait",
+      "Flash",
+      "People",
+      "Color"
+    ],
+    "image": "/generated/images/source/blue-flash-portrait_full.webp",
+    "thumbnail": "/generated/images/source/blue-flash-portrait_thumb.webp",
+    "preview": "/generated/images/source/blue-flash-portrait_preview.webp",
+    "originalImage": "/images/source/blue-flash-portrait.jpg",
+    "alt": "Blue Flash Portrait photography",
+    "description": "A dramatic portrait lit with a vivid blue off-camera flash.",
     "location": "Location not added",
     "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
+    "featured": true,
+    "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
       "note": "Add source details in public/images/photo-data.json if needed."
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
       "proofUrl": "#"
     }
   },
   {
-    "id": "portrait-felixr-3-49",
-    "title": "FelixR 3",
+    "id": "source-green-led-portrait-22",
+    "title": "Green LED Portrait",
     "category": "Portrait",
-    "image": "/images/Portrait/FelixR_-3.jpg",
-    "alt": "FelixR 3 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Portrait",
+      "Portrait Orientation",
+      "Flash",
+      "People",
+      "Color"
+    ],
+    "autoTags": [
+      "Portrait",
+      "Portrait Orientation"
+    ],
+    "manualTags": [
+      "Portrait",
+      "Flash",
+      "People",
+      "Color"
+    ],
+    "image": "/generated/images/source/green-led-portrait_full.webp",
+    "thumbnail": "/generated/images/source/green-led-portrait_thumb.webp",
+    "preview": "/generated/images/source/green-led-portrait_preview.webp",
+    "originalImage": "/images/source/green-led-portrait.jpg",
+    "alt": "Green Led Portrait photography",
+    "description": "A portrait lit with an intense green LED light source.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
-    "peoplePhoto": false,
+    "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
       "note": "Add source details in public/images/photo-data.json if needed."
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
       "proofUrl": "#"
     }
   },
   {
-    "id": "portrait-felixr-4-50",
-    "title": "FelixR 4",
+    "id": "source-volleyball-portrait-31",
+    "title": "Volleyball Portrait",
     "category": "Portrait",
-    "image": "/images/Portrait/FelixR_-4.jpg",
-    "alt": "FelixR 4 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
+    "tags": [
+      "Portrait",
+      "Portrait Orientation",
+      "Black & White",
+      "Sports",
+      "Flash",
+      "People"
+    ],
+    "autoTags": [
+      "Portrait",
+      "Portrait Orientation",
+      "Black & White"
+    ],
+    "manualTags": [
+      "Portrait",
+      "Sports",
+      "Flash",
+      "People"
+    ],
+    "image": "/generated/images/source/volleyball-portrait_full.webp",
+    "thumbnail": "/generated/images/source/volleyball-portrait_thumb.webp",
+    "preview": "/generated/images/source/volleyball-portrait_preview.webp",
+    "originalImage": "/images/source/volleyball-portrait.jpg",
+    "alt": "Volleyball Portrait photography",
+    "description": "A volleyball player lit with off-camera flash in a dynamic portrait.",
     "location": "Location not added",
     "year": "2026",
     "featured": false,
-    "peoplePhoto": false,
+    "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
       "note": "Add source details in public/images/photo-data.json if needed."
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
+      "status": "Permission not marked yet",
+      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
+      "proofLabel": "Add permission proof",
       "proofUrl": "#"
     }
   }
