@@ -10,9 +10,10 @@ export default function GalleryCard({ item, onClick }) {
     >
       <div className="relative overflow-hidden">
         <img
-          src={item.image}
+          src={item.thumbnail || item.image}
           alt={item.alt}
           className="aspect-[4/5] w-full object-cover transition duration-500 group-hover:scale-105"
+          loading="lazy"
         />
 
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent p-4">
@@ -30,7 +31,7 @@ export default function GalleryCard({ item, onClick }) {
 
             {item.peoplePhoto && (
               <span className="rounded-full border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-200 backdrop-blur">
-                {item.permission.status}
+                Portrait
               </span>
             )}
           </div>

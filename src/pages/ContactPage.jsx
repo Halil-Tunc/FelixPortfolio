@@ -29,13 +29,12 @@ export default function ContactPage() {
     setContactStatus({ type: "loading", message: "Sending your message..." });
 
     const endpoint = CONTACT_CONFIG.formspreeEndpoint;
-    const isPlaceholder = endpoint.includes("your-form-id");
+    const isPlaceholder = !endpoint || endpoint.trim() === "";
 
     if (isPlaceholder) {
       setContactStatus({
         type: "warning",
-        message:
-          "The contact form is ready, but you still need to paste your Formspree endpoint into src/data/contact.js to turn on email sending.",
+        message: `The contact form isn't fully configured yet. Email Felix directly at ${BRAND.email}`,
       });
       return;
     }
@@ -75,8 +74,7 @@ export default function ContactPage() {
     } catch {
       setContactStatus({
         type: "error",
-        message:
-          "Something went wrong while sending your message. Please try again or email me directly.",
+        message: `Something went wrong. Please try again or email directly at ${BRAND.email}`,
       });
     }
   };
@@ -85,32 +83,32 @@ export default function ContactPage() {
     <div className="space-y-8">
       <SectionHeader
         eyebrow="Contact"
-        title="A contact page that is clear, polished, and easy to use."
-        text="The form below is built to send messages to your email once you add your Formspree endpoint."
+        title="Get in touch with Felix."
+        text="Whether it's a portrait session, event coverage, or a creative collaboration — send a message and Felix will get back to you."
       />
 
       <div className="grid gap-6 lg:grid-cols-[1fr_0.9fr]">
         <Panel>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <div className="grid gap-4 sm:grid-cols-2">
-              <Field label="Name">
+              <Field label="Your name">
                 <input
                   required
                   value={contactForm.name}
                   onChange={(e) => handleChange("name", e.target.value)}
                   className="w-full rounded-2xl border border-white/10 bg-zinc-900/80 px-4 py-3 outline-none transition focus:border-white/30"
-                  placeholder="Your name"
+                  placeholder="First and last name"
                 />
               </Field>
 
-              <Field label="Email">
+              <Field label="Your email">
                 <input
                   required
                   type="email"
                   value={contactForm.email}
                   onChange={(e) => handleChange("email", e.target.value)}
                   className="w-full rounded-2xl border border-white/10 bg-zinc-900/80 px-4 py-3 outline-none transition focus:border-white/30"
-                  placeholder="you@example.com"
+                  placeholder="your@email.com"
                 />
               </Field>
             </div>
@@ -123,14 +121,14 @@ export default function ContactPage() {
                   className="w-full rounded-2xl border border-white/10 bg-zinc-900/80 px-4 py-3 outline-none transition focus:border-white/30"
                 >
                   <option>Portraits</option>
-                  <option>Events</option>
-                  <option>Editorial</option>
-                  <option>Brand</option>
+                  <option>Events & Concerts</option>
+                  <option>Nature & Macro</option>
+                  <option>Architecture & Automotive</option>
                   <option>Other</option>
                 </select>
               </Field>
 
-              <Field label="Event date">
+              <Field label="Preferred date (optional)">
                 <input
                   type="date"
                   value={contactForm.eventDate}
@@ -147,7 +145,7 @@ export default function ContactPage() {
                 value={contactForm.message}
                 onChange={(e) => handleChange("message", e.target.value)}
                 className="w-full rounded-2xl border border-white/10 bg-zinc-900/80 px-4 py-3 outline-none transition focus:border-white/30"
-                placeholder="What kind of session or event are you planning?"
+                placeholder="What kind of session or project do you have in mind?"
               />
             </Field>
 
@@ -167,7 +165,7 @@ export default function ContactPage() {
                 href={`mailto:${BRAND.email}`}
                 className="text-sm text-zinc-400 underline underline-offset-4"
               >
-                Prefer email? Write directly to {BRAND.email}
+                Or email directly: {BRAND.email}
               </a>
             </div>
 
@@ -195,11 +193,12 @@ export default function ContactPage() {
             <div className="mt-4 space-y-3 text-sm text-zinc-300">
               <p>
                 <span className="font-medium text-white">Email:</span>{" "}
-                {BRAND.email}
-              </p>
-              <p>
-                <span className="font-medium text-white">Phone:</span>{" "}
-                {BRAND.phone}
+                <a
+                  href={`mailto:${BRAND.email}`}
+                  className="underline underline-offset-4"
+                >
+                  {BRAND.email}
+                </a>
               </p>
               <p>
                 <span className="font-medium text-white">Location:</span>{" "}
@@ -209,12 +208,18 @@ export default function ContactPage() {
           </Panel>
 
           <Panel>
-            <h3 className="text-xl font-semibold">Best fit for this site</h3>
-            <p className="mt-4 text-sm text-zinc-300">
-              This portfolio is set up for photographers who want a clean public
-              gallery, a simple editing workflow, and a built-in place to show
-              source details and permission records.
-            </p>
+            <h3 className="text-xl font-semibold">What to share</h3>
+            <div className="mt-4 space-y-3 text-sm text-zinc-300">
+              <div className="rounded-2xl border border-white/10 bg-zinc-900/50 p-4">
+                What kind of session or project you have in mind
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-zinc-900/50 p-4">
+                A rough date or timeline if you have one
+              </div>
+              <div className="rounded-2xl border border-white/10 bg-zinc-900/50 p-4">
+                Any style references or ideas you want to share
+              </div>
+            </div>
           </Panel>
         </div>
       </div>

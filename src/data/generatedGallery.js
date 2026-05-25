@@ -97,19 +97,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/black-white-concert-motion.jpg",
     "alt": "Black White Concert Motion photography",
     "description": "Motion-blurred black and white capture of energy at a live concert.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     },
     "duplicateCount": 3
@@ -145,18 +145,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/city-light-trails.jpg",
     "alt": "City Light Trails photography",
     "description": "Long-exposure light trails from city traffic cutting through the night.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -186,18 +186,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/cyclist-behind-the-rail.jpg",
     "alt": "Cyclist Behind The Rail photography",
     "description": "A cyclist framed behind a metal rail in an urban setting.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -231,18 +231,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/white-sports-car-in-motion.jpg",
     "alt": "White Sports Car In Motion photography",
     "description": "A white sports car captured mid-motion on a city street.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -274,18 +274,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/cat-in-grass.jpg",
     "alt": "Cat In Grass photography",
     "description": "A cat resting in lush green grass outdoors.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -318,18 +318,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/dog-at-the-door.jpg",
     "alt": "Dog At The Door photography",
     "description": "A dog waiting patiently at an interior door.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -360,18 +360,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/dog-with-toy.jpg",
     "alt": "Dog With Toy photography",
     "description": "A dog posed playfully with its favorite toy.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -403,18 +403,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/black-white-urban-parking-garage.jpg",
     "alt": "Black White Urban Parking Garage photography",
     "description": "Graphic lines and shadows of a multi-level urban parking structure.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -446,18 +446,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/brick-house-porch.jpg",
     "alt": "Brick House Porch photography",
     "description": "A classic brick house porch with warm natural lighting.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -487,18 +487,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/foggy-apartment-exterior.jpg",
     "alt": "Foggy Apartment Exterior photography",
     "description": "An apartment building exterior dissolving into a thick morning fog.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -527,18 +527,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/red-roof-apartment-walkway.jpg",
     "alt": "Red Roof Apartment Walkway photography",
     "description": "A covered outdoor walkway with a bold red roof along an apartment building.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -569,18 +569,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/trailer-under-bare-trees.jpg",
     "alt": "Trailer Under Bare Trees photography",
     "description": "A parked trailer nestled beneath a row of bare winter trees.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -611,18 +611,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/yellow-house-afternoon-light.jpg",
     "alt": "Yellow House Afternoon Light photography",
     "description": "A yellow house bathed in warm afternoon sunlight.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -655,18 +655,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/black-white-honda-snowy-road.jpg",
     "alt": "Black White Honda Snowy Road photography",
     "description": "A Honda photographed in black and white on a snow-covered road.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -699,18 +699,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/camaro-parking-lot-portrait.jpg",
     "alt": "Camaro Parking Lot Portrait photography",
     "description": "A Camaro photographed in a parking lot with a clean portrait composition.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -743,19 +743,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/black-white-guitar-performance.jpg",
     "alt": "Black White Guitar Performance photography",
     "description": "A guitarist mid-performance captured in high-contrast black and white.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     },
     "duplicateCount": 2
@@ -788,18 +788,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/black-white-neighborhood-sky.jpg",
     "alt": "Black White Neighborhood Sky photography",
     "description": "A neighborhood roofline against a dramatic black and white sky.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -833,18 +833,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/crescent-moon-behind-clouds.jpg",
     "alt": "Crescent Moon Behind Clouds photography",
     "description": "A crescent moon partially obscured by drifting clouds.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -878,19 +878,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/overhead-concert-singer.jpg",
     "alt": "Overhead Concert Singer photography",
     "description": "A singer captured from an overhead angle during a live performance.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": true,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     },
     "duplicateCount": 2
@@ -923,19 +923,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/punk-show-vocalist.jpg",
     "alt": "Punk Show Vocalist photography",
     "description": "A vocalist at a punk show commanding the stage with raw energy.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     },
     "duplicateCount": 2
@@ -967,22 +967,63 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/rain-streaks-on-brick-wall.jpg",
     "alt": "Rain Streaks On Brick Wall photography",
     "description": "Rain streaks tracing patterns across a textured brick wall.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
     "duplicateCount": 2
+  },
+  {
+    "id": "landscape-felixr-37-1",
+    "title": "City Overlook",
+    "category": "Landscape",
+    "tags": [
+      "Landscape",
+      "Landscape Orientation",
+      "City",
+      "Outdoor"
+    ],
+    "autoTags": [
+      "Landscape",
+      "Landscape Orientation"
+    ],
+    "manualTags": [
+      "Landscape",
+      "City",
+      "Outdoor"
+    ],
+    "image": "/generated/images/Landscape/FelixR_-37_full.webp",
+    "thumbnail": "/generated/images/Landscape/FelixR_-37_thumb.webp",
+    "preview": "/generated/images/Landscape/FelixR_-37_preview.webp",
+    "originalImage": "/images/Landscape/FelixR_-37.jpg",
+    "alt": "FelixR 37 photography",
+    "description": "A wide city landscape photographed from an elevated vantage point.",
+    "location": "Undisclosed",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "source": {
+      "label": "Original photo by photographer",
+      "url": "#",
+      "note": ""
+    },
+    "permission": {
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
+      "proofLabel": "Usage note",
+      "proofUrl": "#"
+    }
   },
   {
     "id": "source-cloudy-city-overlook-13",
@@ -1010,53 +1051,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/cloudy-city-overlook.jpg",
     "alt": "Cloudy City Overlook photography",
     "description": "A city viewed from an overlook beneath a heavy overcast sky.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
-      "proofLabel": "Usage note",
-      "proofUrl": "#"
-    }
-  },
-  {
-    "id": "landscape-felixr-37-1",
-    "title": "FelixR 37",
-    "category": "Landscape",
-    "tags": [
-      "Landscape",
-      "Landscape Orientation"
-    ],
-    "autoTags": [
-      "Landscape",
-      "Landscape Orientation"
-    ],
-    "manualTags": [],
-    "image": "/generated/images/Landscape/FelixR_-37_full.webp",
-    "thumbnail": "/generated/images/Landscape/FelixR_-37_thumb.webp",
-    "preview": "/generated/images/Landscape/FelixR_-37_preview.webp",
-    "originalImage": "/images/Landscape/FelixR_-37.jpg",
-    "alt": "FelixR 37 photography",
-    "description": "Add a description for this photo in public/images/photo-data.json.",
-    "location": "Location not added",
-    "year": "2026",
-    "featured": false,
-    "peoplePhoto": false,
-    "source": {
-      "label": "Original photo by photographer",
-      "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
-    },
-    "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -1089,18 +1095,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/foggy-apartment-skyline.jpg",
     "alt": "Foggy Apartment Skyline photography",
     "description": "A foggy city skyline partially visible behind apartment buildings.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -1135,18 +1141,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/stormy-skyline-overlook.jpg",
     "alt": "Stormy Skyline Overlook photography",
     "description": "A city skyline viewed from an elevated overlook under stormy skies.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -1182,18 +1188,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/neon-alley-at-night.jpg",
     "alt": "Neon Alley At Night photography",
     "description": "A narrow urban alley lit by vivid neon lights after dark.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -1226,18 +1232,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/cactus-at-golden-hour.jpg",
     "alt": "Cactus At Golden Hour photography",
     "description": "A cactus photographed up close during warm golden-hour light.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -1270,18 +1276,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/grasshopper-close-up.jpg",
     "alt": "Grasshopper Close Up photography",
     "description": "A grasshopper photographed in sharp macro detail.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": true,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -1312,18 +1318,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/green-brush-along-fence.jpg",
     "alt": "Green Brush Along Fence photography",
     "description": "Lush green brush growing densely along a wooden fence line.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     }
@@ -1355,18 +1361,18 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/pink-spring-blossoms.jpg",
     "alt": "Pink Spring Blossoms photography",
     "description": "Delicate pink blossoms blooming on a tree branch in spring.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": false,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Not marked",
-      "publicNote": "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+      "status": "No release required",
+      "publicNote": "No personal release required for this image.",
       "proofLabel": "Usage note",
       "proofUrl": "#"
     },
@@ -1399,19 +1405,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/blue-flash-portrait.jpg",
     "alt": "Blue Flash Portrait photography",
     "description": "A dramatic portrait lit with a vivid blue off-camera flash.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": true,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     }
   },
@@ -1442,19 +1448,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/green-led-portrait.jpg",
     "alt": "Green Led Portrait photography",
     "description": "A portrait lit with an intense green LED light source.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     }
   },
@@ -1487,19 +1493,19 @@ export const AUTO_GALLERY_ITEMS = [
     "originalImage": "/images/source/volleyball-portrait.jpg",
     "alt": "Volleyball Portrait photography",
     "description": "A volleyball player lit with off-camera flash in a dynamic portrait.",
-    "location": "Location not added",
+    "location": "Undisclosed",
     "year": "2026",
     "featured": false,
     "peoplePhoto": true,
     "source": {
       "label": "Original photo by photographer",
       "url": "#",
-      "note": "Add source details in public/images/photo-data.json if needed."
+      "note": ""
     },
     "permission": {
-      "status": "Permission not marked yet",
-      "publicNote": "Add permission details and a proof link in public/images/photo-data.json.",
-      "proofLabel": "Add permission proof",
+      "status": "Pending documentation",
+      "publicNote": "Permission documentation in progress.",
+      "proofLabel": "Permission details",
       "proofUrl": "#"
     }
   }

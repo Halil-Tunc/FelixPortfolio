@@ -318,24 +318,22 @@ function defaultSource() {
   return {
     label: "Original photo by photographer",
     url: "#",
-    note: "Add source details in public/images/photo-data.json if needed.",
+    note: "",
   };
 }
 
 function defaultPermission(peoplePhoto) {
   if (peoplePhoto) {
     return {
-      status: "Permission not marked yet",
-      publicNote:
-        "Add permission details and a proof link in public/images/photo-data.json.",
-      proofLabel: "Add permission proof",
+      status: "Pending documentation",
+      publicNote: "Permission documentation in progress.",
+      proofLabel: "Permission details",
       proofUrl: "#",
     };
   }
   return {
-    status: "Not marked",
-    publicNote:
-      "No permission proof has been added. If this photo contains a person, update public/images/photo-data.json.",
+    status: "No release required",
+    publicNote: "No personal release required for this image.",
     proofLabel: "Usage note",
     proofUrl: "#",
   };
@@ -379,10 +377,8 @@ function makeItem({
     preview: variants.preview,
     originalImage: variants.originalImage,
     alt: metadata.alt || `${humanize(group.cleanBase)} photography`,
-    description:
-      metadata.description ||
-      "Add a description for this photo in public/images/photo-data.json.",
-    location: metadata.location || "Location not added",
+    description: metadata.description || "",
+    location: (metadata.location && metadata.location !== "Location not added") ? metadata.location : "Undisclosed",
     year: metadata.year || new Date().getFullYear().toString(),
     featured: Boolean(metadata.featured),
     peoplePhoto,

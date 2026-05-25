@@ -1,6 +1,5 @@
 import {
   ExternalLink,
-  Image as ImageIcon,
   MapPin,
   ShieldCheck,
   UserRound,
@@ -10,8 +9,31 @@ import { motion } from "motion/react";
 import InfoPill from "../ui/InfoPill";
 import BeforeAfterSlider from "./BeforeAfterSlider";
 
+function normalizeLocation(location) {
+  if (!location || location === "Location not added" || location === "Undisclosed") {
+    return "Undisclosed";
+  }
+  return location;
+}
+
+function isPlaceholderText(text) {
+  return !text || text.includes("photo-data.json") || text.includes("Add ");
+}
+
+function normalizePermissionStatus(status) {
+  if (!status || status === "Permission not marked yet") return "Pending";
+  if (status === "Not marked") return "Not required";
+  return status;
+}
+
 export default function ImageModal({ item, close }) {
   const hasBeforeAfter = Boolean(item.beforeAfter?.afterImage);
+  const displayLocation = normalizeLocation(item.location);
+  const hasSourceLink = item.source?.url && item.source.url !== "#";
+  const hasProofLink = item.permission?.proofUrl && item.permission.proofUrl !== "#";
+  const permissionStatus = normalizePermissionStatus(item.permission?.status);
+  const showSourceNote = !isPlaceholderText(item.source?.note);
+  const showPermissionNote = !isPlaceholderText(item.permission?.publicNote);
 
   return (
     <motion.div
@@ -75,34 +97,32 @@ export default function ImageModal({ item, close }) {
               </div>
 
               <h2 className="text-3xl font-semibold">{item.title}</h2>
-              <p className="text-zinc-300">{item.description}</p>
+              {item.description && (
+                <p className="text-zinc-300">{item.description}</p>
+              )}
             </div>
 
             <div className="grid gap-3 text-sm text-zinc-300 sm:grid-cols-2">
               <InfoPill
                 icon={<MapPin className="h-4 w-4" />}
-                text={item.location}
-              />
-              <InfoPill
-                icon={<ImageIcon className="h-4 w-4" />}
-                text={item.alt}
+                text={displayLocation}
               />
 
               {item.peoplePhoto ? (
                 <InfoPill
                   icon={<UserRound className="h-4 w-4" />}
-                  text="Contains a person"
+                  text="Portrait subject"
                 />
               ) : (
                 <InfoPill
                   icon={<UserRound className="h-4 w-4" />}
-                  text="No personal release marked"
+                  text="No personal release required"
                 />
               )}
 
               <InfoPill
                 icon={<ShieldCheck className="h-4 w-4" />}
-                text={item.permission.status}
+                text={permissionStatus}
               />
             </div>
 
@@ -135,19 +155,23 @@ export default function ImageModal({ item, close }) {
                   <span className="font-medium text-white">Source:</span>{" "}
                   {item.source.label}
                 </p>
-                <p>
-                  <span className="font-medium text-white">Note:</span>{" "}
-                  {item.source.note}
-                </p>
-                <a
-                  href={item.source.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-white underline underline-offset-4"
-                >
-                  Open source link
-                  <ExternalLink className="h-4 w-4" />
-                </a>
+                {showSourceNote && (
+                  <p>
+                    <span className="font-medium text-white">Note:</span>{" "}
+                    {item.source.note}
+                  </p>
+                )}
+                {hasSourceLink && (
+                  <a
+                    href={item.source.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 text-white underline underline-offset-4"
+                  >
+                    Open source link
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                )}
               </div>
             </div>
 
@@ -158,21 +182,25 @@ export default function ImageModal({ item, close }) {
               <div className="mt-4 space-y-2 text-sm text-emerald-50/90">
                 <p>
                   <span className="font-medium text-white">Status:</span>{" "}
-                  {item.permission.status}
+                  {permissionStatus}
                 </p>
-                <p>
-                  <span className="font-medium text-white">Public note:</span>{" "}
-                  {item.permission.publicNote}
-                </p>
-                <a
-                  href={item.permission.proofUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-white underline underline-offset-4"
-                >
-                  {item.permission.proofLabel}
-                  <ExternalLink className="h-4 w-4" />
-                </a>
+                {showPermissionNote && (
+                  <p>
+                    <span className="font-medium text-white">Note:</span>{" "}
+                    {item.permission.publicNote}
+                  </p>
+                )}
+                {hasProofLink && (
+                  <a
+                    href={item.permission.proofUrl}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 text-white underline underline-offset-4"
+                  >
+                    {item.permission.proofLabel}
+                    <ExternalLink className="h-4 w-4" />
+                  </a>
+                )}
               </div>
             </div>
           </div>

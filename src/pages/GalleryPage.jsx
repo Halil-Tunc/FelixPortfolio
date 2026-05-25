@@ -26,8 +26,8 @@ export default function GalleryPage({ setSelectedItem }) {
     <div className="space-y-8">
       <SectionHeader
         eyebrow="Gallery"
-        title="Browse by category, then tap any image for details."
-        text="This layout is simple on purpose: large thumbnails, clear filters, and easy image details."
+        title="Browse Felix's photography by category."
+        text="Filter by subject, search by keyword, and tap any image to see full details."
       />
 
       <div className="rounded-3xl border border-white/10 bg-white/5 p-4 backdrop-blur">
@@ -37,7 +37,7 @@ export default function GalleryPage({ setSelectedItem }) {
             <input
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              placeholder="Search title, place, or style"
+              placeholder="Search by title, category, or style"
               className="w-full rounded-2xl border border-white/10 bg-zinc-900/80 py-3 pl-10 pr-4 text-sm outline-none transition focus:border-white/30"
             />
           </div>

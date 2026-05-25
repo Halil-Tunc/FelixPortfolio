@@ -1,5 +1,6 @@
 export const CONTACT_CONFIG = {
-  formspreeEndpoint: "https://formspree.io/f/mwvavrqn",
+  formspreeEndpoint:
+    import.meta.env.VITE_FORMSPREE_ENDPOINT || "https://formspree.io/f/mwvavrqn",
   successMessage:
-    "Thanks for reaching out. Your message was sent successfully.",
+    "Message sent. Felix will get back to you soon.",
 };

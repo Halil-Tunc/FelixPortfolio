@@ -318,5 +318,14 @@
     "peoplePhoto": true,
     "category": "Portrait",
     "tags": ["Portrait", "Flash", "People", "Color"]
+  },
+  "landscape/felixr-37": {
+    "title": "City Overlook",
+    "description": "A wide city landscape photographed from an elevated vantage point.",
+    "year": "2026",
+    "featured": false,
+    "peoplePhoto": false,
+    "category": "Landscape",
+    "tags": ["Landscape", "City", "Outdoor"]
   }
 }
